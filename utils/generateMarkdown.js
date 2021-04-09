@@ -29,7 +29,7 @@ function generateMarkdown(data) {
     3. [Usage](#usage)
     4. [Test](#test)
     5. [License](#license)
-    6. [Dependencies](#dependencies)
+    6. [Contributing](#contributing)
     
 
  ## Description
@@ -47,8 +47,8 @@ function generateMarkdown(data) {
  ## License
  ${renderLicenseBadge(data.license)}
 
- ## Dependencies
- ${data.dependencies}
+ ## Contributing
+ ${data.contributing}
 
 ## QUESTIONS 
 If you have any questions, feel free to email me at ${data.email}. You can also find my other work at ${data.username}. 

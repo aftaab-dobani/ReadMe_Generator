@@ -37,6 +37,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "contributing",
+    message: "List everyone who contributed to this project.",
+  },
+  {
+    type: "input",
     name: "test",
     message: "What command should be run to run test?",
   },
@@ -46,12 +51,7 @@ const questions = [
     message: "What is kind of licence should your project have?",
     choices: ["MIT", "APACHE 2.0", "CC0", "None"],
   },
-  {
-    type: "input",
-    name: "dependencies",
-    message: "What command should be run to install dependencies?",
-    choices: ["NPM i"],
-  },
+ 
 ];
 
 // TODO: Create a function to initialize app
