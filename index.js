@@ -41,7 +41,7 @@ const questions = [
     message: "What command should be run to run test?",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
     message: "What is kind of licence should your project have?",
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
@@ -51,12 +51,6 @@ const questions = [
     name: "dependencies",
     message: "What command should be run to install dependencies?",
     choices: ["NPM i"],
-  },
-  {
-    type: "input",
-    name: "test",
-    message: "What command should be run to run test?",
-    choices: ["npm test"],
   },
 ];
 

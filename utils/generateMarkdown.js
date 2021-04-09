@@ -1,7 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -23,7 +27,7 @@ function generateMarkdown(data) {
     4. [Test](#test)
     5. [License](#license)
     6. [Dependencies](#dependencies)
-    7. []
+    
 
  ## Description
  ${data.description}
@@ -38,7 +42,13 @@ function generateMarkdown(data) {
  ${data.test}
 
  ## License
- ${data.license}
+ ${renderLicenseBadge(data.license)}
+
+ ## Dependencies
+ ${data.dependencies}
+
+## QUESTIONS 
+If you have any questions, feel free to email me at ${data.email}. You can also find my other work at ${data.username}. 
 
 `;
 }
