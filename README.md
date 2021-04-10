@@ -1,32 +1,33 @@
-# ReadMe
+# README Generator
   
   ## Table of Contents 
     1. [Description](#description)
     2. [Installation](#installation)
     3. [Usage](#usage)
-    4. [Test](#test)
-    5. [License](#license)
-    6. [Dependencies](#dependencies)
+    4. [Contributing](#contributing)
+    5. [Test](#test)
+    6. [License](#license)
+    
     
 
  ## Description
- sdfds
+ Created a readMe generator which includes information about how the project works, how to use the app, install the app
 
  ## Installation
- fsfs
+ None
 
  ## Usage
- sdfds
+ NOne
 
  ## Test
- dsfsfs
+ init
 
  ## License
- No license needed
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
- ## Dependencies
- dafa
+ ## Contributing
+ None
 
 ## QUESTIONS 
-If you have any questions, feel free to email me at 1234dobani@gmail.com. You can also find my other work at aftaab . 
+If you have any questions, feel free to email me at 1234dobani@gmail.com. You can also find my other work at aftaabdobani. 
 
